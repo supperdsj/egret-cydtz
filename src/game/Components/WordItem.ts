@@ -1,5 +1,6 @@
 class WordItem extends eui.Component implements eui.UIComponent {
    public lb_word: eui.Label;
+   public targetWord: WordItem = null;
 
    constructor() {
       super();
@@ -13,8 +14,8 @@ class WordItem extends eui.Component implements eui.UIComponent {
    }
 
    protected onClickWord() {
-      this.parent.dispatchEvent(new egret.Event('clickWord',false,false,this));
-      this.visible = false;
+      this.parent.dispatchEvent(new egret.Event('clickWord', false, false, this));
+      // this.visible = false;
    }
 
    get word(): string {

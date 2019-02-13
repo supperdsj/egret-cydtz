@@ -25,7 +25,7 @@ class GameData {
    }
 
    public getItem(level: number): LevelItem {
-      return this.items[level-1];
+      return this.items[level - 1];
    }
 
    static get clearedItem(): number {
@@ -33,6 +33,8 @@ class GameData {
    }
 
    static set clearedItem(n: number) {
-      egret.localStorage.setItem('clearedItem', `${n}`);
+      if (n - 1 === this.clearedItem) {
+         egret.localStorage.setItem('clearedItem', `${n}`);
+      }
    }
 }
