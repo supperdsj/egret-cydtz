@@ -9,11 +9,11 @@
 			</e:Skin>
 		</e:skinName>
 	</e:Button>
-	<e:Button id="btn_setting" label="设置" anchorOffsetX="31.5" anchorOffsetY="31.32" width="63" height="31.32" right="17" bottom="1094">
+	<e:Button id="btn_setting" label="设置" anchorOffsetX="37" anchorOffsetY="38.32" width="74" height="38.32" right="17" bottom="1087">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="MoneyBG_png"/>
-			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="24"/>
 			</e:Skin>
 		</e:skinName>
 	</e:Button>

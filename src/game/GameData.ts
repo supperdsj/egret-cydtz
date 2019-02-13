@@ -1,4 +1,4 @@
-interface Item {
+interface LevelItem {
    answer: string;
    img: string;
    word: string;
@@ -16,7 +16,7 @@ class GameData {
       return GameData.shared;
    }
 
-   public items: Array<Item> = [];
+   public items: Array<LevelItem> = [];
    public totalLevels: number = 0;
 
    constructor() {
@@ -24,8 +24,8 @@ class GameData {
       this.totalLevels = this.items.length;
    }
 
-   public getItem(level: number): Item {
-      return this.items[level];
+   public getItem(level: number): LevelItem {
+      return this.items[level-1];
    }
 
    static get clearedItem(): number {
