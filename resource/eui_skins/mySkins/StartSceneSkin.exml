@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="StartSceneSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Skin class="StartSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
 	<e:Image source="GameBG1_jpg" top="0" bottom="0" left="0" right="0"/>
-	<e:Button id="btn_startGame" label="" anchorOffsetX="0" width="226" anchorOffsetY="0" height="71.3" horizontalCenter="0" bottom="20">
+	<e:Button id="btn_startGame" label="" anchorOffsetX="0" width="242" anchorOffsetY="0" height="79.3" horizontalCenter="0" bottom="45">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="StartBtn_png" source.down="StartBtn1_png"/>
@@ -9,7 +9,7 @@
 			</e:Skin>
 		</e:skinName>
 	</e:Button>
-	<e:Button id="btn_setting" label="设置" x="430.5" y="45" anchorOffsetX="31.5" anchorOffsetY="31.32" width="63" height="31.32">
+	<e:Button id="btn_setting" label="设置" anchorOffsetX="31.5" anchorOffsetY="31.32" width="63" height="31.32" right="17" bottom="1094">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="MoneyBG_png"/>

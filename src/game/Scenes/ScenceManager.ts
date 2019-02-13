@@ -1,5 +1,5 @@
 class SceneManager {
-   private static _manager = null;
+   private static _manager:SceneManager = null;
 
    public static get Instance() {
       if (!SceneManager._manager) {

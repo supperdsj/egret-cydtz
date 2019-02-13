@@ -8,17 +8,18 @@
 		"libs/modules/promise/promise.js"
 	],
 	"game": [
-		"bin-debug/game/Scene.js",
-		"bin-debug/game/LevelDataManager.js",
+		"bin-debug/game/Scenes/Scene.js",
+		"bin-debug/game/Components/ItemBtn.js",
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",
 		"bin-debug/ThemeAdapter.js",
-		"bin-debug/game/GameScene.js",
+		"bin-debug/game/GameData.js",
 		"bin-debug/LoadingUI.js",
-		"bin-debug/game/LevelScene.js",
-		"bin-debug/game/ScenceManager.js",
+		"bin-debug/game/Scenes/GameScene.js",
+		"bin-debug/game/Scenes/LevelScene.js",
+		"bin-debug/game/Scenes/ScenceManager.js",
 		"bin-debug/AssetAdapter.js",
-		"bin-debug/game/SettingScene.js",
-		"bin-debug/game/StartScene.js"
+		"bin-debug/game/Scenes/SettingScene.js",
+		"bin-debug/game/Scenes/StartScene.js"
 	]
 }
